@@ -10,7 +10,7 @@ Implementação TDD do método `isValidToInclude(p: Person) -> List[str]` que re
 
 ## Estrutura
 ```
-exercicio2/
+exercicio-2/
 ├── src/
 │   └── person.py       # Classes: Email, Person, PersonDAO
 ├── tests/
