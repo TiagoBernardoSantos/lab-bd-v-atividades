@@ -13,9 +13,9 @@ Calcula o salário líquido de funcionários com base no cargo e salário-base, 
 
 ## Estrutura
 ```
-exercicio3/
+exercicio-3/
 ├── src/
-│   └── calculadora_salario.py   # Classes: Cargo (Enum), Funcionario, CalculadoraSalario
+│   └── calculadora_salario.py  
 ├── tests/
 │   └── test_calculadora_salario.py
 └── requirements.txt
