@@ -43,33 +43,20 @@ src/person.py          33      3    91%   21-23
 --------------------------------------------------
 TOTAL                  33      3    91%
 
-20 passed in 0.05s
+8 passed in 0.05s
 ```
 
 > Linhas 21-23 correspondem ao bloco `raise` dentro de `save()`, não coberto intencionalmente pois é lógica de persistência.
 
-## Casos de teste (20 CTs)
+## Casos de teste (8 CTs)
 
 | CT | Descrição |
 |----|-----------|
-| 01 | Nome válido (caso base) |
-| 02 | Nome com apenas uma parte |
-| 03 | Nome vazio |
-| 04 | Nome com números |
-| 05 | Nome com caracteres especiais |
-| 06 | Nome com duas partes válidas |
-| 07 | Nome com três partes válidas |
-| 08 | Idade válida no limite inferior (1) |
-| 09 | Idade válida no limite superior (200) |
-| 10 | Idade zero |
-| 11 | Idade negativa |
-| 12 | Idade acima de 200 |
-| 13 | Sem e-mails associados |
-| 14 | E-mail com formato válido |
-| 15 | E-mail sem @ |
-| 16 | E-mail sem ponto |
-| 17 | E-mail sem domínio |
-| 18 | E-mail vazio |
-| 19 | Múltiplos e-mails válidos |
-| 20 | Um e-mail inválido entre válidos |
-| 21 | Múltiplos erros simultâneos |
+| CT01 | Pessoa completamente válida |
+| CT02 | Nome com apenas uma parte |
+| CT03 | Nome com números |
+| CT04 | Idade fora do intervalo (zero) |
+| CT05 | Idade fora do intervalo (acima de 200) |
+| CT06 | Sem e-mails associados |
+| CT07 | E-mail com formato inválido |
+| CT08 | Múltiplos erros simultâneos |
